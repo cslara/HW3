@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+ #header {
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.location-table {
+    margin: 10px;
+    padding: 10px;
+}
+
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+ 
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+}
