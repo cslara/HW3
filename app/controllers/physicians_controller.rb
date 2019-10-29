@@ -72,7 +72,7 @@ class PhysiciansController < ApplicationController
     
     def physician_params
      
-      params.require(:physician).permit(:name, :specialty, offices_attributes: [:id, :street, :zip, :phone, :done, :_destroy])
+      params.require(:physician).permit(:name, :specialty, offices_attributes: [:id, :street, :zip, :phone,  :_destroy])
 
 
     end
